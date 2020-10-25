@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Equipos</title>
+    <meta charset="UTF-8">
+    <style>
+        table, th, td {
+            border: 1px solid #000000;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+            text-align: center;
+        }
+        th {
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+<table style="width:100%">
+
+    <tr>
+        <th colspan="3">Primera division <img alt="" width="160px" src="data:image/png;base64,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"> </th>
+
+    <tr>
+        <th>Nombre</th>
+        <th>Escudo</th>
+        <th colspan="2">Equipaciones</th>
+    </tr>
+    <tr>
+        <td>Real Madrid CF </td>
+        <td ><a target="_blank" href="https://www.realmadrid.com/"> <img src="img/download.png" alt="Real Madrid" height="151" width="151"/>  </a></td>
+        <td>Blanca y rosa, rosa y azul marino</td>
+    <tr>
+        <td>Atletico de Madrid</td>
+        <td><a target ="_blank" href="https://www.atleticodemadrid.com/"> <img src="img/download_1.png" height="131" width="151"/></a></td>
+        <td>Roja y blanca, azul marino y rojo</td>
+    </tr>
+    <tr>
+        <td>FC Barcelona</td>
+        <td><a target="_blank" href="https://www.fcbarcelona.es/es/"><img src="img/download_2.png" alt="Barcelona" height="151" width="151"/></a></td>
+        <td>Azulgrana y rosa con verde fosforito</td>
+    </tr>
+    <tr>
+        <td>Real Betis Balompie</td>
+        <td><a target="_blank" href="https://www.realbetisbalompie.es"> <img src="img/download_3.png" alt="Real Betis Balompie" height="151" width="151"/></a></td>
+        <td>Verdiblanca, morada</td>
+    </tr>
+    <tr>>
+        <td>Club Atletico Osasuna</td>
+        <td><a target="_blank" href="https://www.osasuna.es"> <img src="img/download_4.png" alt="Osasuna" height="151" width="151"/</a></td>
+        <td>Roja, azul marino</td>
+    </tr>
+</table>
+
+<table style="width:100%">
+
+    <tr>
+        <th colspan="3">Segunda division <img alt="" width="220" src="data:image/jpeg;base64,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"> </th>
+
+    <tr>
+        <th>Nombre</th>
+        <th>Escudo</th>
+        <th colspan="2">Equipaciones</th>
+    </tr>
+    <tr>
+        <td>Rayo Vallecano </td>
+        <td><a target="_blank" href="http://www.rayovallecano.es/"><img src="img/descarga.jpg" alt="Rayo Vallecabo" height="151" width="151"/></a></td>
+        <td>Blanca y roja, roja y negra</td>
+    </tr>
+
+    <tr>
+        <td>Club de Futbol Fuenlabrada </td>
+        <td><a target="_blank" href="https://www.cffuenlabrada.es"><img src="img/download_6.png" alt="Club de Futbol Fuenlabrada" height="151" width="151"/></a></td>
+        <td>Azul, roja</td>
+    </tr>
+    <tr>
+        <td>Real Zaragoza</td>
+        <td><a target="_blank" href="https://www.realzaragoza.com"><img src="img/download_7.png" alt="Real Zaragoza" height="160" width="97"/></a></td>
+        <td>Blanca y azul, roja y amarilla</td>
+    </tr>
+    <
+    <tr>
+        <td>Albaceta Balompie</td>
+        <td><a target="_blank" href="https://www.albacetebalompie.es"><img src="img/download_8.png" alt="Albacete" height="186" width="186"/></a></td>
+        <td>Blanca y granate, negro y granate</td>
+    </tr>
+    <tr>
+        <td>Malaga Club de Futbol</td>
+        <td><a target="_blank" href="https://www.malagacf.com"><img src="img/download_9.png" alt="Malaga" height="186" width="186"/></a></td>
+        <td>Blanquiazul, morado y verde</td>
+    </tr>
+</table>
+
+
+<input type="button" value="Pagina anterior" onClick="history.go(-1);" href="index.html">
+</body>
+</html>
